@@ -1,4 +1,11 @@
+/* ******************INDEX********************* */
+
 header {
     display: flex;
     justify-content: space-between;
 }
+
+.nav_bar li {
+    display: inline-block;
+    margin-right: 10px;
+  }
