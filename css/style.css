@@ -3,9 +3,14 @@
 header {
     display: flex;
     justify-content: space-between;
+    background-color: blueviolet;
 }
 
-.nav_bar li {
+.nav_bar_list li {
     display: inline-block;
     margin-right: 10px;
+  }
+
+  .index_text_div h1 {
+    text-align: center;
   }
