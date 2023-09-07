@@ -3,14 +3,12 @@ footer {
     text-align: center;
     background-color: bisque;
 }
-
-
-/*******************INDEX**********************/
-
+/*******************NAV BAR**********************/
 header {
     display: flex;
     justify-content: space-between;
     background-color: bisque;
+    align-items: center;
 }
 
 .header_logo img {
@@ -22,6 +20,9 @@ header {
     display: inline-block;
     margin-right: 10px;
   }
+
+
+/*******************INDEX**********************/
 
   .index_text_div h1 {
     text-align: center;
@@ -40,7 +41,7 @@ header {
     height: auto;
   }
   /* Billedets størrelse er ikke optimalt endnu */
-  
+
   /*******************productlist**********************/
 
   .productlist_grid {
