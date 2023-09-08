@@ -13,6 +13,7 @@ header {
     justify-content: space-between;
     background-color: bisque;
     align-items: center;
+    width: 100%;
 }
 
 .header_logo img {
