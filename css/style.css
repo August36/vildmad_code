@@ -1,12 +1,13 @@
 /*******************GENERAL**********************/
+main h1, h2 {
+    text-align: center;
+}
+
 footer {
     text-align: center;
     background-color: bisque;
 }
 
-main h1, h2 {
-    text-align: center;
-}
 /*******************NAV BAR**********************/
 header {
     display: flex;
