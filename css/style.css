@@ -54,22 +54,33 @@ header {
     grid-template-columns: 1fr 1fr;
   }
 
-  article {
+  .productlist_article {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  article h3, article p {
+  .productlist_article h3, .productlist_article p {
     width: 200px;
   }
 
-  article img {
+  .productlist_article img {
     width: 200px;
   }
 
    /*******************product**********************/
-  .product_text_box {
+
+   .product_article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .product_article img {
+    width: 100%;
+   }
+
+   .product_text_box {
     max-width: 40%;
     border: solid;
     border-width: 2px;
