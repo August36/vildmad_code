@@ -58,6 +58,10 @@ header {
     align-items: center;
   }
 
+  article h3, p {
+    width: 200px;
+  }
+
   article img {
     width: 200px;
   }
