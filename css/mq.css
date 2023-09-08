@@ -1,7 +1,7 @@
 @media screen and (min-width: 600px) {
     /*******************productlist**********************/
 
-    article h3, p {
+    article h3, article p {
         width: 260px;
       }
     
@@ -16,7 +16,7 @@
 @media screen and (min-width: 700px){
     /*******************productlist**********************/
 
-    article h3, p {
+    article h3, article p {
         width: 300px;
       }
     
@@ -33,7 +33,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         }
 
-    article h3, p {
+    article h3, article p {
         width: 260px;
       }
     
@@ -45,7 +45,7 @@
 @media screen and (min-width: 1000px) {
     /*******************productlist**********************/
 
-    article h3, p {
+    article h3, article p {
         width: 300px;
       }
     
@@ -57,7 +57,7 @@
 @media screen and (min-width: 1200px) {
     /*******************productlist**********************/
 
-    article h3, p {
+    article h3, article p {
         width: 350px;
       }
     
@@ -69,7 +69,7 @@
 @media screen and (min-width: 1350px) {
     /*******************productlist**********************/
 
-    article h3, p {
+    article h3, article p {
         width: 400px;
       }
     
@@ -81,7 +81,7 @@
 @media screen and (min-width: 1500px) {
     /*******************productlist**********************/
 
-    article h3, p {
+    article h3, article p {
         width: 450px;
       }
     

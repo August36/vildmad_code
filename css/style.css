@@ -60,7 +60,7 @@ header {
     align-items: center;
   }
 
-  article h3, p {
+  article h3, article p {
     width: 200px;
   }
 
