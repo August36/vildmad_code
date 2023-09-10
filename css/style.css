@@ -69,13 +69,12 @@ header {
     height: 200px;
   }
 
-  .se_opskrift_btn {
-    border: solid;
-    border-width: 3px;
-    padding: 10px;
+  .recipe_btn {
+    padding: 13px;
     border-color: black;
     background-color: bisque;
     margin-bottom: 10px;
+    border-radius: 20px;
   }
 
    /*******************product**********************/
