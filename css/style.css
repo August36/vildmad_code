@@ -68,7 +68,26 @@ header {
     width: 200px;
   }
 
+  .se_opskrift_btn {
+    border: solid;
+    border-width: 3px;
+    padding: 10px;
+    border-color: black;
+    background-color: bisque;
+    margin-bottom: 10px;
+  }
+
    /*******************product**********************/
+
+   .dish_img_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .dish_img {
+    width: 200px;
+   }
 
    .product_article {
     display: flex;
@@ -81,11 +100,22 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 20px;
    }
 
    .product_img_container img {
-    width: 20%;
-    display: inline-block;
+    width: 100%;
+   }
+
+   .ingrident_container {
+    border: solid;
+    border-width: 1px;
+    margin-left: 10px;
+   }
+
+   .ingrident_container p {
+    padding: 3px;
+    text-align: center;
    }
 
    .product_text_box {
