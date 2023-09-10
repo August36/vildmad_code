@@ -66,6 +66,7 @@ header {
 
   .productlist_article img {
     width: 200px;
+    height: 200px;
   }
 
   .se_opskrift_btn {
@@ -107,13 +108,13 @@ header {
     width: 100%;
    }
 
-   .ingrident_container {
+   .ingredient_container {
     border: solid;
     border-width: 1px;
     margin-left: 10px;
    }
 
-   .ingrident_container p {
+   .ingredient_container p {
     padding: 3px;
     text-align: center;
    }

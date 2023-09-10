@@ -13,9 +13,13 @@ fetch("https://mlbkadeqohvoalvuqhec.supabase.co/rest/v1/vildmad_gruppe11", {
 
 function showData(items){
     console.log(items);
+    // pancake ingridients
     document.querySelector(".skovsyre_img").src="https://vildmadv2.vps.webdock.io/application/files/8416/2401/2670/Alm-syre_ravarkort_app.png";
     document.querySelector(".fuglekirsebaer_img").src="https://vildmadv2.vps.webdock.io/application/files/8916/2437/0577/Fuglekirsbaer_ravarekort_app.png";
     document.querySelector(".hyldebaer_img").src="https://vildmadv2.vps.webdock.io/application/files/5116/2437/3339/Hyld_ravarkort_app.png";
+    // twistBread ingredients
+    // Hvorfor virker billederne ikke på twistbread.html???
+    document.querySelector(".hyben_img").src="https://vildmadv2.vps.webdock.io/application/files/1416/2445/9195/Roset_sprintklap_ravarekort_app.png";
     // items.forEach()
 }
 
