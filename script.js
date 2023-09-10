@@ -13,7 +13,9 @@ fetch("https://mlbkadeqohvoalvuqhec.supabase.co/rest/v1/vildmad_gruppe11", {
 
 function showData(items){
     console.log(items);
-    document.querySelector(".product_img img").src="https://vildmadv2.vps.webdock.io/application/files/8416/2401/2670/Alm-syre_ravarkort_app.png"
+    document.querySelector(".skovsyre_img").src="https://vildmadv2.vps.webdock.io/application/files/8416/2401/2670/Alm-syre_ravarkort_app.png";
+    document.querySelector(".fuglekirsebaer_img").src="https://vildmadv2.vps.webdock.io/application/files/8916/2437/0577/Fuglekirsbaer_ravarekort_app.png";
+    document.querySelector(".hyldebaer_img").src="https://vildmadv2.vps.webdock.io/application/files/5116/2437/3339/Hyld_ravarkort_app.png";
     // items.forEach()
 }
 

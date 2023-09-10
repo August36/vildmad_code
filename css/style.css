@@ -76,14 +76,16 @@ header {
     align-items: center;
    }
 
-   .product_img {
+   .product_img_container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
    }
 
-   .product_article img {
-    width: 40%;
+   .product_img_container img {
+    width: 20%;
+    display: inline-block;
    }
 
    .product_text_box {
