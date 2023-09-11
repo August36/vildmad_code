@@ -11,18 +11,18 @@ fetch(`https://mlbkadeqohvoalvuqhec.supabase.co/rest/v1/vildmad_gruppe11`, {
 .then(response => response.json())
 .then((data) => {
   showH1(data[0]); // Targets h1 - the [number] selects which row i chose
-  showH2(data[3]); // Targets h2
-  showH3(data[5])
-  showP1(data[4]); // targets first paragraph on site
-  showP2(data[2]);
-  showP3(data[2]);
-  showP4(data[5]);
+  showH2(data[0]); // Targets h2
+  showH3(data[0]); // targets h3
+  showP1(data[0]); // targets first paragraph on site (.ingredient_amount_paragraph)
+  showP2(data[0]); // targets 2nd paragraph (.ingredients)
+  showP3(data[0]); // 3d paragraph (.tools)
+  showP4(data[0]); // 4th paragraph (.recipe)
 });
 
 function showH1(product){
     if (product) {
         console.log(product);
-        document.querySelector("h1").textContent = product.ret; // the text after product. selects the column. in this case the column 'ret'. write name of any column in supabase table to change it
+        document.querySelector("h1").textContent = product.ret; // the text after product. selects the column. in this case the column 'ret'. write the name of any column in supabase table to change it
     } else {
         console.log("no data found");
     }
@@ -30,7 +30,7 @@ function showH1(product){
 
 function showH2(product) {
     if (product) {
-        document.querySelector("h2").textContent = product.ret;
+        document.querySelector("h2").textContent = product.skalSankes;
     } else {
         console.log("No data found for the h2");
     }
@@ -43,7 +43,7 @@ function showH3(product) {
         console.log("No data found for the h3");
     }
 }
-
+//Her skal billeder sættes ind
 function showP1(product) {
     if (product) {
         document.querySelector(".ingredient_amount_paragraph").textContent = product.categories;
@@ -51,6 +51,7 @@ function showP1(product) {
         console.log("No data found for the paragraph");
     }
 }
+//Her skal de resterende ingredienser som skal sankes sættes ind
 
 function showP2(product) {
     if (product) {
