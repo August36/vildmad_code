@@ -76,5 +76,3 @@ function showP4(product) {
         console.log("No data found for the paragraph");
     }
 }
-
-//Her skal imaget være, hvordan gør jeg det?
