@@ -15,8 +15,6 @@ function showRet(product){
     } else {
         console.log("no data found");
     }
-//     console.log(product);
-// document.querySelector("h1").textContent = product.title;
 }
 
 
