@@ -12,9 +12,11 @@ fetch(`https://mlbkadeqohvoalvuqhec.supabase.co/rest/v1/vildmad_gruppe11`, {
 .then((data) => {
   showH1(data[0]); // Targets h1 - the [number] selects which row i chose
   showH2(data[3]); // Targets h2
+  showH3(data[5])
   showP1(data[4]); // targets first paragraph on site
   showP2(data[2]);
   showP3(data[2]);
+  showP4(data[5]);
 });
 
 function showH1(product){
@@ -34,6 +36,14 @@ function showH2(product) {
     }
 }
 
+function showH3(product) {
+    if (product) {
+        document.querySelector("h3").textContent = product.velbekomme;
+    } else {
+        console.log("No data found for the h3");
+    }
+}
+
 function showP1(product) {
     if (product) {
         document.querySelector(".ingredient_amount_paragraph").textContent = product.categories;
@@ -44,7 +54,7 @@ function showP1(product) {
 
 function showP2(product) {
     if (product) {
-        document.querySelector(".recipe1").textContent = product.opskrift1;
+        document.querySelector(".ingredients").textContent = product.ingredienser;
     } else {
         console.log("No data found for the paragraph");
     }
@@ -52,7 +62,15 @@ function showP2(product) {
 
 function showP3(product) {
     if (product) {
-        document.querySelector(".recipe2").textContent = product.opskrift2;
+        document.querySelector(".tools").textContent = product.redskaber;
+    } else {
+        console.log("No data found for the paragraph");
+    }
+}
+
+function showP4(product) {
+    if (product) {
+        document.querySelector(".recipe").textContent = product.fremgangsmaede;
     } else {
         console.log("No data found for the paragraph");
     }
