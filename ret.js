@@ -10,9 +10,9 @@ fetch(`https://mlbkadeqohvoalvuqhec.supabase.co/rest/v1/vildmad_gruppe11?select=
 })
 .then(response => response.json())
 .then((data) => {
-  showH1(data[0]); // Targeter h1
-  showH2(data[3]); // Targeter h2
-  showP1(data[4]); // targeter den første p1 (.ingredient_amount_paragraph) på siden. Skift data ud med det rigtige fra databasen.
+  showH1(data[0]); // Targets h1
+  showH2(data[3]); // Targets h2
+  showP1(data[4]); // targets den første p1 (.ingredient_amount_paragraph) på siden. Skift data ud med det rigtige fra databasen.
 });
 
 function showH1(product){
