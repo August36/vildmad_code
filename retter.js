@@ -1,7 +1,7 @@
 // https://mlbkadeqohvoalvuqhec.supabase.co
 // eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1sYmthZGVxb2h2b2FsdnVxaGVjIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTM1MDgzNjYsImV4cCI6MjAwOTA4NDM2Nn0._KaG9H7dvxEtQBOqnpjnmdLml5vjSigGXSXpGtmHur8
 // select=id,title,season/0,season/1,season/2,season/3,categories/0/name,sankelandskaber/0/title,sankelandskaber/0/profile_image/src,sankelandskaber/0/profile_image/id
-fetch("https://mlbkadeqohvoalvuqhec.supabase.co/rest/v1/vildmad_gruppe11", {
+fetch("https://mlbkadeqohvoalvuqhec.supabase.co/rest/v1/vildmad_gruppe11?limit=6", {
   method: "GET",
   headers: {
     apikey:
@@ -26,8 +26,10 @@ const copy = template.cloneNode(true);
   // *********Tilføj img********
 copy.querySelector("h3").textContent=product.ret;
 copy.querySelector("p").textContent=product.retDescription;
+//Forsøg på at ændre recipe_btn: 
+// copy.querySelector(".recipe_btn")setAttribute("href", `product.html?id=${product.id}`);
   //appende
-  document.querySelector("main").appendChild(copy);
+document.querySelector("main").appendChild(copy);
 }
 
 /*
