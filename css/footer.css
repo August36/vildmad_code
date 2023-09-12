@@ -8,19 +8,20 @@
   right: 0;
   gap: 5%;
   align-items: center;
+  margin-top: 15%;
+  padding-top: 2%;
 }
 
 #footer_logo {
   grid-column: 1;
   background-repeat: no-repeat;
-  width: 40%;
-  margin-top: 15%;
+  width: 30%;
   margin-bottom: 5%;
   margin-left: 30%;
 }
 
 #fot_ori {
-  padding-top: 5%;
+  margin-top: 15%;
 }
 
 #fot_con {
@@ -42,18 +43,16 @@
 
 #fot_some {
   grid-column: 3;
-
   align-items: center;
   width: 100%;
-  padding-top: 2%;
 }
-#fot_con_inst {
-  width: 60%;
+
+#fot_con_inst,
+#fot_con_face {
+  width: 20%;
   padding-bottom: 0;
-  padding-top: 5%;
+  padding-top: 0;
 }
 #fot_con_face {
-  width: 60%;
-  padding-bottom: 0;
-  padding-top: 5%;
+  margin-top: 15%;
 }
