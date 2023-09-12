@@ -23,7 +23,9 @@ const template = document.querySelector("#retterTemplate").content;
   //lav kopi
 const copy = template.cloneNode(true);
   //ændre indhold
-
+  // *********Tilføj img********
+copy.querySelector("h3").textContent=product.ret;
+copy.querySelector("p").textContent=product.retDescription;
   //appende
   document.querySelector("main").appendChild(copy);
 }
