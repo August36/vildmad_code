@@ -1,131 +1,132 @@
 /*******************GENERAL**********************/
-main h1, h2 {
-    text-align: center;
+main h1,
+h2 {
+  text-align: center;
 }
 
 footer {
-    text-align: center;
-    background-color: bisque;
+  text-align: center;
+  background-color: bisque;
 }
 
 /*******************NAV BAR**********************/
 header {
-    display: flex;
-    justify-content: space-between;
-    background-color: bisque;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: bisque;
+  align-items: center;
+  width: 100%;
 }
 
 .header_logo img {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 .nav_bar_list li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-
+  display: inline-block;
+  margin-right: 10px;
+}
 
 /*******************INDEX**********************/
 
-  .index_text_div h1 {
-    text-align: center;
-  }
-  
-  .index_img_div {
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.index_text_div h1 {
+  text-align: center;
+}
 
-  .index_img_div img {
-    max-width: 100%;
-    height: auto;
-  }
+.index_img_div {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  /*******************retter**********************/
+.index_img_div img {
+  max-width: 100%;
+  height: auto;
+}
 
-  .productlist_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+/*******************retter**********************/
 
-  .productlist_article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.productlist_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
-  .productlist_article h3, .productlist_article p {
-    width: 200px;
-  }
+.productlist_article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .productlist_article img {
-    width: 200px;
-    height: 200px;
-  }
+.productlist_article h3,
+.productlist_article p {
+  width: 200px;
+}
 
-  .recipe_btn {
-    padding: 13px;
-    border-color: black;
-    background-color: bisque;
-    margin-bottom: 10px;
-    border-radius: 20px;
-  }
+.productlist_article img {
+  width: 200px;
+  height: 200px;
+}
 
-   /*******************ret**********************/
+.recipe_btn {
+  padding: 13px;
+  border-color: black;
+  background-color: bisque;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
 
-   .dish_img_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   }
+/*******************ret**********************/
 
-   .dish_img {
-    width: 200px;
-   }
+.dish_img_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-   .product_article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   }
+.dish_img {
+  width: 200px;
+}
 
-   .product_img_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 20px;
-   }
+.product_article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-   .product_img_container img {
-    width: 100%;
-   }
+.product_img_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
 
-   .ingredient_container {
-    border: solid;
-    border-width: 1px;
-    margin-left: 10px;
-   }
+.product_img_container img {
+  width: 100%;
+}
 
-   .ingredient_container p {
-    padding: 3px;
-    text-align: center;
-   }
+.ingredient_container {
+  border: solid;
+  border-width: 1px;
+  margin-left: 10px;
+}
 
-   .product_text_box {
-    max-width: 40%;
-    border: solid;
-    border-width: 2px;
-    border-radius: 12px;
-    padding: 10px;
-  }
+.ingredient_container p {
+  padding: 3px;
+  text-align: center;
+}
 
-  .product_text_box .recipe1 .tools {
-    margin-bottom: 10px;
-  }
+.product_text_box {
+  max-width: 40%;
+  border: solid;
+  border-width: 2px;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.product_text_box .recipe1 .tools {
+  margin-bottom: 10px;
+}

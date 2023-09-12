@@ -1,18 +1,24 @@
 //Jeg har fundet ud af hvordan jeg gør html elementerne dynamiske, men kun med rows som hører under columnen 'ret'.
 //  Det har jeg gjort ved at tilføje ?select=ret i URL'en. Men hvordan tilføjer jeg de andre columns??
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get("id");
 
-fetch(`https://mlbkadeqohvoalvuqhec.supabase.co/rest/v1/vildmad_gruppe11`, {
-  method: "GET",
-  headers: {
-    apikey:
-      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1sYmthZGVxb2h2b2FsdnVxaGVjIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTM1MDgzNjYsImV4cCI6MjAwOTA4NDM2Nn0._KaG9H7dvxEtQBOqnpjnmdLml5vjSigGXSXpGtmHur8",
-  },
-})
+fetch(
+  `https://mlbkadeqohvoalvuqhec.supabase.co/rest/v1/vildmad_gruppe11` + id,
+  {
+    method: "GET",
+    headers: {
+      apikey:
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1sYmthZGVxb2h2b2FsdnVxaGVjIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTM1MDgzNjYsImV4cCI6MjAwOTA4NDM2Nn0._KaG9H7dvxEtQBOqnpjnmdLml5vjSigGXSXpGtmHur8",
+    },
+  }
+)
   .then((response) => response.json())
   .then((data) => {
     showH1(data[0]); // Targets h1 - the [number] selects which row i chose
     showH2(data[0]); // Targets h2
     showH3(data[0]); // targets h3
+    showDishImg(data[0]);
     showP1(data[0]); // targets first paragraph on site (.ingredient_amount_paragraph)
     showP2(data[0]); // targets 2nd paragraph (.ingredients)
     showP3(data[0]); // 3d paragraph (.tools)
@@ -44,6 +50,12 @@ function showH3(product) {
   }
 }
 //Her skal billeder sættes ind
+function showDishImg(product) {
+  if (product) {
+    document.querySelector(".dish_img").src = ``;
+  }
+}
+
 function showP1(product) {
   if (product) {
     document.querySelector(".ingredient_amount_paragraph").textContent =
