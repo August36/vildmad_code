@@ -19,27 +19,17 @@
   margin-left: 30%;
 }
 
+#fot_ori {
+  padding-top: 5%;
+}
+
 #fot_con {
   grid-column: 3;
-
   font-family: "Space Mono", monospace;
   font-size: 2cqw;
   color: black;
   display: grid;
 }
-
-#fot_about {
-  color: black;
-  text-decoration: none;
-  font-family: "Space Mono", monospace;
-  font-size: 2cqw;
-  font-weight: bolder;
-  padding-top: 5%;
-}
-#fot_about:hover {
-  text-decoration: underline;
-}
-
 #fot_tlf_over {
   padding-top: 3%;
 }
