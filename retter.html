@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vildmad Gruppe11</title>
+    <!-- Links to css-->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mq.css" />
   </head>
@@ -21,18 +22,21 @@
     <main>
       <h1>Lorem ipsum</h1>
       <h2>lorem ipsum</h2>
-      <template id="retterTemplate">
-      <section class="productlist_grid">
-          <article class="productlist_article">
-            <img src="imgs/pancakes.avif" alt="Pandekager" />
-            <h3>Pandekagetårn</h3>
-            <p>Lav lækre pandekager, og pynt med bær fundet i skoven.</p>
-            <a class="recipe_btn" href="product.html">Se opskrift</a>
-          </article>
-        </template>
+      <section class="productlist_grid" id="productList">
+        <!-- Products will be appended here dynamically -->
       </section>
+      <template id="retterTemplate">
+        <article class="productlist_article">
+          <img src="imgs/pancakes.avif" alt="Pandekager" />
+          <h3>Pandekagetårn</h3>
+          <p>Lav lækre pandekager, og pynt med bær fundet i skoven.</p>
+          <a class="recipe_btn" href="product.html">Se opskrift</a>
+        </article>
+      </template>
     </main>
-    <footer><p>FOOTER FOOTER FOOTER</p></footer>
+    <footer>
+      <p>FOOTER FOOTER FOOTER</p>
+    </footer>
     <script src="retter.js"></script>
   </body>
 </html>
