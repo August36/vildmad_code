@@ -1,48 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vildmad Gruppe11</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/mq.css" />
-  </head>
-  <body>
-    <header>
-      <div class="header_logo">
-        <img src="imgs/baggrund.svg" alt="Logo" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vildmad Gruppe11</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/mq.css" />
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Space+Mono&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header_logo">
+      <img src="imgs/baggrund.svg" alt="Logo" />
+    </div>
+    <ol class="nav_bar_list">
+      <li><a href="index.html">Forside</a></li>
+      <li><a href="retter.html">Retter</a></li>
+      <li><a href="ret.html">ret</a></li>
+    </ol>
+  </header>
+  <main>
+    <article class="product_article">
+      <h1>Pandekagetårn</h1>
+      <div class="dish_img_container">
+        <img class="dish_img" src="imgs/pancakes.avif" alt="" />
       </div>
-      <ol class="nav_bar_list">
-        <li><a href="index.html">Forside</a></li>
-        <li><a href="retter.html">Retter</a></li>
-        <li><a href="ret.html">ret</a></li>
-      </ol>
-    </header>
-    <main>
-      <article class="product_article">
-        <h1>Pandekagetårn</h1>
-        <div class="dish_img_container">
-          <img class="dish_img" src="imgs/pancakes.avif" alt="" />
+      <h2>Ingredienser som skal sankes:</h2>
+      <div class="product_img_container">
+        <div class="ingredient_container">
+          <img class="skovsyre_img" src="" alt="Skovsyre" />
+          <p class="ingredient_amount_paragraph">½ håndfuld skovsyre</p>
         </div>
-        <h2>Ingredienser som skal sankes:</h2>
-        <div class="product_img_container">
-          <div class="ingredient_container">
-            <img class="skovsyre_img" src="" alt="Skovsyre" />
-            <p class="ingredient_amount_paragraph">½ håndfuld skovsyre</p>
-          </div>
+      </div>
+      <div class="product_text_box">
+        <p class="ingredients">Lorem, ipsum.</p>
+        <p class="tools">Lorem, ipsum.</p>
+        <p class="recipe">Lorem, ipsum.</p>
+        <!-- Evt. del opskriften op, så der kommer afsnit i teksten - lav en ny paragraph -->
+      </div>
+      <div>
+        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+      </div>
+    </article>
+  </main>
+  <footer>
+    <div id="footer">
+
+      <div id="footer_logo">
+        <a href="index.html"> <img id="fot_logo_ny" src="imgs/logo.svg" alt="logo"></a>
+        <a href="https://vildmad.dk/dk"><img id="fot_ori" src="imgs/vildmadorilogo.svg" alt="vildmadoriginalogo"></a>
+      </div>
+
+
+      <div id="fot_con">
+
+        <p id="fot_tlf_over"> TELEFON NUMMMER:
+        </p>
+        <p id="fot_tlf_num">+45 26 35 00 17
+        </p>
+        <p id="fot_mail_over"> E-MAIL:
+        </p>
+        <p id="fot_mail_mail">info@vildmad.dk
+        </p>
+      </div>
+      <div id="fot_some">
+        <div id="fot_con_inst"><a href="https://www.instagram.com/vildmaddk/?hl=da"><img src="imgs/instagram.svg"
+              alt="instagram"></a>
         </div>
-        <div class="product_text_box">
-          <p class="ingredients">Lorem, ipsum.</p>
-          <p class="tools">Lorem, ipsum.</p>
-          <p class="recipe">Lorem, ipsum.</p>
-          <!-- Evt. del opskriften op, så der kommer afsnit i teksten - lav en ny paragraph -->
+        <div id="fot_con_face"><a href="https://www.facebook.com/vildmaddk"><img src="imgs/facebook.svg"
+              alt="facebook"></a>
         </div>
-        <div>
-          <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </article>
-    </main>
-    <footer><p>FOOTER FOOTER FOOTER</p></footer>
-    <script src="ret.js"></script>
-  </body>
+      </div>
+    </div>
+  </footer>
+  <script src="ret.js"></script>
+</body>
+
 </html>

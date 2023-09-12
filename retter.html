@@ -1,42 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vildmad Gruppe11</title>
-    <!-- Links to css-->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/mq.css" />
-  </head>
-  <body>
-    <header>
-      <div class="header_logo">
-        <img src="imgs/baggrund.svg" alt="Logo" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vildmad Gruppe11</title>
+  <!-- Links to css-->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/mq.css" />
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Space+Mono&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header_logo">
+      <img src="imgs/baggrund.svg" alt="Logo" />
+    </div>
+    <ol class="nav_bar_list">
+      <li><a href="index.html">Forside</a></li>
+      <li><a href="retter.html">Retter</a></li>
+      <li><a href="ret.html">Ret</a></li>
+    </ol>
+  </header>
+  <main>
+    <h1>Lorem ipsum</h1>
+    <h2>lorem ipsum</h2>
+    <section class="productlist_grid" id="productList">
+      <!-- Products will be appended here dynamically -->
+    </section>
+    <template id="retterTemplate">
+      <article class="productlist_article">
+        <img src="imgs/pancakes.avif" alt="Pandekager" />
+        <h3>Pandekagetårn</h3>
+        <p>Lav lækre pandekager, og pynt med bær fundet i skoven.</p>
+        <a class="recipe_btn" href="ret.html">Se opskrift</a>
+      </article>
+    </template>
+  </main>
+  <footer>
+    <div id="footer">
+
+      <div id="footer_logo">
+        <a href="index.html"> <img id="fot_logo_ny" src="imgs/logo.svg" alt="logo"></a>
+        <a href="https://vildmad.dk/dk"><img id="fot_ori" src="imgs/vildmadorilogo.svg" alt="vildmadoriginalogo"></a>
       </div>
-      <ol class="nav_bar_list">
-        <li><a href="index.html">Forside</a></li>
-        <li><a href="retter.html">Retter</a></li>
-        <li><a href="ret.html">Ret</a></li>
-      </ol>
-    </header>
-    <main>
-      <h1>Lorem ipsum</h1>
-      <h2>lorem ipsum</h2>
-      <section class="productlist_grid" id="productList">
-        <!-- Products will be appended here dynamically -->
-      </section>
-      <template id="retterTemplate">
-        <article class="productlist_article">
-          <img src="imgs/pancakes.avif" alt="Pandekager" />
-          <h3>Pandekagetårn</h3>
-          <p>Lav lækre pandekager, og pynt med bær fundet i skoven.</p>
-          <a class="recipe_btn" href="ret.html">Se opskrift</a>
-        </article>
-      </template>
-    </main>
-    <footer>
-      <p>FOOTER FOOTER FOOTER</p>
-    </footer>
-    <script src="retter.js"></script>
-  </body>
+
+
+      <div id="fot_con">
+
+        <p id="fot_tlf_over"> TELEFON NUMMMER:
+        </p>
+        <p id="fot_tlf_num">+45 26 35 00 17
+        </p>
+        <p id="fot_mail_over"> E-MAIL:
+        </p>
+        <p id="fot_mail_mail">info@vildmad.dk
+        </p>
+      </div>
+      <div id="fot_some">
+        <div id="fot_con_inst"><a href="https://www.instagram.com/vildmaddk/?hl=da"><img src="imgs/instagram.svg"
+              alt="instagram"></a>
+        </div>
+        <div id="fot_con_face"><a href="https://www.facebook.com/vildmaddk"><img src="imgs/facebook.svg"
+              alt="facebook"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="retter.js"></script>
+</body>
+
 </html>
