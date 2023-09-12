@@ -1,5 +1,5 @@
 @media screen and (min-width: 600px) {
-    /*******************productlist**********************/
+    /*******************retter**********************/
 
     .productlist_article h3, .productlist_article p {
         width: 260px;
@@ -14,7 +14,7 @@
       }
 }
 @media screen and (min-width: 700px){
-    /*******************productlist**********************/
+    /*******************retter**********************/
 
     .productlist_article h3, .productlist_article p {
         width: 300px;
@@ -26,7 +26,7 @@
 }
 
 @media screen and (min-width: 900px){
-    /*******************productlist**********************/
+    /*******************retter**********************/
     
     .productlist_grid {
         display: grid;
@@ -43,7 +43,7 @@
 }
 
 @media screen and (min-width: 1000px) {
-    /*******************productlist**********************/
+    /*******************retter**********************/
 
     .productlist_article h3, .productlist_article p {
         width: 300px;
@@ -55,7 +55,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-    /*******************productlist**********************/
+    /*******************retter**********************/
 
     .productlist_article h3, .productlist_article p {
         width: 350px;
@@ -67,7 +67,7 @@
 }
 
 @media screen and (min-width: 1350px) {
-    /*******************productlist**********************/
+    /*******************retter**********************/
 
     .productlist_article h3, .productlist_article p {
         width: 400px;
@@ -79,7 +79,7 @@
 }
 
 @media screen and (min-width: 1500px) {
-    /*******************productlist**********************/
+    /*******************retter**********************/
 
     .productlist_article h3, .productlist_article p {
         width: 450px;
