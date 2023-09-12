@@ -18,6 +18,7 @@ fetch(
     showH1(data[0]); // Targets h1 - the [number] selects which row i chose
     showH2(data[0]); // Targets h2
     showH3(data[0]); // targets h3
+    showDishImg(data[0]);
     showP1(data[0]); // targets first paragraph on site (.ingredient_amount_paragraph)
     showP2(data[0]); // targets 2nd paragraph (.ingredients)
     showP3(data[0]); // 3d paragraph (.tools)
@@ -49,6 +50,12 @@ function showH3(product) {
   }
 }
 //Her skal billeder sættes ind
+function showDishImg(product) {
+  if (product) {
+    document.querySelector(".dish_img").src = ``;
+  }
+}
+
 function showP1(product) {
   if (product) {
     document.querySelector(".ingredient_amount_paragraph").textContent =
