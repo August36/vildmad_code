@@ -1,7 +1,12 @@
 /*******************GENERAL**********************/
 main h1,
-h2 {
+h2,
+h3 {
   text-align: center;
+  font-family: "Permanent Marker", cursive;
+}
+p {
+  font-family: "Space Mono", monospace;
 }
 
 footer {
