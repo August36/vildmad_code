@@ -17,36 +17,33 @@ html {
 
 /*******************INDEX**********************/
 
+.index_text_div h1 {
+  text-align: center;
+}
+
+.for_bil {
+  width: 100%;
+  height: auto;
+}
+
 #for_main {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100vh;
+  overflow: hidden;
 }
-
 #for_bag {
-  background-color: #bcbf9dff;
+  background-image: url(../imgs/baggrund.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
 }
 
-#for_logo_con {
-  position: relative;
-  width: 80%;
-  height: 100vh;
-}
 #for_logo {
   position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.for_text_div {
-  justify-content: center;
-  font-family: "Space Mono", monospace;
-  font-size: 2cqw;
-  position: absolute;
-  top: 80%;
-
-  padding-left: 5%;
-  padding-right: 5%;
+  left: 42%;
+  top: 37%;
+  width: 20%;
 }
 
 /*******************retter**********************/
@@ -75,12 +72,9 @@ html {
 .recipe_btn {
   padding: 13px;
   border-color: black;
-  background-color: #bcbf9dff;
+  background-color: bisque;
   margin-bottom: 10px;
   border-radius: 20px;
-  color: black;
-  font-family: "Space Mono", monospace;
-  font-weight: bold;
 }
 
 /*******************ret**********************/
@@ -114,6 +108,8 @@ html {
 }
 
 .ingredient_container {
+  display: flex;
+  justify-content: space-around;  
   border: solid;
   border-width: 1px;
   margin-left: 10px;
