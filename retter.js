@@ -27,7 +27,7 @@ fetch(
       copy
         .querySelector(".recipe_btn")
         .setAttribute("href", `ret.html?id=${product.id}`);
-        copy.querySelector(".productlist_article img").src = "https://holylamb.dk/retterImg/" + product.ret_img;
+      copy.querySelector(".productlist_article img").src = "https://holylamb.dk/retterImg/" + product.ret_img;
 
 
         productList.appendChild(copy); // Append the product to the product list container
