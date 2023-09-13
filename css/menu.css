@@ -3,13 +3,14 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #f1e9dbff;
-  font-family: permanent marker;
+  font-family: "permanent marker";
   font-size: 20px;
 }
 
 .logo img {
   width: 100px;
   height: 100px;
+  margin-left: 30px;
 }
 
 nav {
@@ -47,6 +48,7 @@ nav {
   width: 30px;
   height: 20px;
   cursor: pointer;
+  margin-left: -50%;
 }
 
 .burger .line {
