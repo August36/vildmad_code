@@ -17,35 +17,6 @@ html {
 
 /*******************INDEX**********************/
 
-.index_text_div h1 {
-  text-align: center;
-}
-
-.for_bil {
-  width: 100%;
-  height: auto;
-}
-
-#for_main {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-#for_bag {
-  background-image: url(../imgs/baggrund.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow-x: hidden;
-}
-
-#for_logo {
-  position: absolute;
-  left: 42%;
-  top: 37%;
-  width: 20%;
-}
-
 /*******************retter**********************/
 
 .productlist_grid {
@@ -109,7 +80,7 @@ html {
 
 .ingredient_container {
   display: flex;
-  justify-content: space-around;  
+  justify-content: space-around;
   border: solid;
   border-width: 1px;
   margin-left: 10px;

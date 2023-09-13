@@ -48,6 +48,7 @@ nav {
   width: 30px;
   height: 20px;
   cursor: pointer;
+  margin-left: -50%;
 }
 
 .burger .line {
