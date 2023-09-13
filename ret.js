@@ -26,7 +26,7 @@ function showProduct(product) {
   document.querySelector(".ingredients").textContent = product[0].ingredienser;
   document.querySelector(".tools").textContent = product[0].redskaber;
   document.querySelector(".recipe").textContent = product[0].fremgangsmaede;
-  document.querySelector("h3").textContent = product[0].velbekomme;
+  document.querySelector(".velbekomme_h3").textContent = product[0].velbekomme;
   document.querySelector(".dish_img").src = "https://holylamb.dk/retterImg/" + product[0].ret_img;
   document.querySelector(".ingredient_container .ingredient_img1").src = product[0].ingredientImg; //Kun dette img vises
   document.querySelector(".ingredient_container .ingredient_img2").src = product[0].ingredientImg2; //Hvordan får jeg flere imgs ind?
