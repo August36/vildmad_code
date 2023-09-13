@@ -26,5 +26,7 @@ function showProduct(product) {
   document.querySelector(".tools").textContent = product[0].redskaber;
   document.querySelector(".recipe").textContent = product[0].fremgangsmaede;
   document.querySelector("h3").textContent = product[0].velbekomme;
+  document.querySelector(".dish_img").src = "https://holylamb.dk/retterImg/" + product[0].ret_img;
+  document.querySelector(".ingredient_container img").src = product[0].ingredientImg;
   //document.querySelector("img").src=`https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`
 }
