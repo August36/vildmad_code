@@ -187,23 +187,23 @@ html {
 .ingredient_container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; 
-  border: solid;
-  border-width: 1px;
-  margin-left: 10px;
   width: 50%;
+  align-items: center;
+  background-color: #fefef5;
 }
 
 .ingredient_container p {
   text-align: center;
+  color: #262728;
 }
 
 .product_text_box {
-  max-width: 40%;
-  border: solid;
-  border-width: 2px;
+  max-width: 60%;
   border-radius: 12px;
   padding: 10px;
   margin-bottom: 20px;
+  background-color: #f1e9dbff;
+  color: #262728;
 }
 
 .product_text_box .recipe1 .tools {
