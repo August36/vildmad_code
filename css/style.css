@@ -6,7 +6,13 @@ h2 {
 
 footer {
   text-align: center;
-  background-color: bisque;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /*******************INDEX**********************/
@@ -15,17 +21,29 @@ footer {
   text-align: center;
 }
 
-.index_img_div {
-  max-width: 100%;
+.for_bil {
+  width: 100%;
   height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.index_img_div img {
-  max-width: 100%;
-  height: auto;
+#for_main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+#for_bag {
+  background-image: url(../imgs/baggrund.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+#for_logo {
+  position: absolute;
+  left: 42%;
+  top: 37%;
+  width: 20%;
 }
 
 /*******************retter**********************/
