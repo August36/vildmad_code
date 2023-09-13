@@ -9,25 +9,6 @@ footer {
   background-color: bisque;
 }
 
-/*******************NAV BAR**********************/
-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: bisque;
-  align-items: center;
-  width: 100%;
-}
-
-.header_logo img {
-  width: 70px;
-  height: 70px;
-}
-
-.nav_bar_list li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
 /*******************INDEX**********************/
 
 .index_text_div h1 {
