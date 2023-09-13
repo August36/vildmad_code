@@ -72,9 +72,12 @@ html {
 .recipe_btn {
   padding: 13px;
   border-color: black;
-  background-color: bisque;
+  background-color: #bcbf9dff;
   margin-bottom: 10px;
   border-radius: 20px;
+  color: black;
+  font-family: monospace;
+  font-weight: bold;
 }
 
 /*******************ret**********************/
