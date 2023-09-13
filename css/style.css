@@ -152,6 +152,10 @@ html {
 
 /*******************ret**********************/
 
+.velbekomme_h3 {
+  text-align: center;
+}
+
 .dish_img_container {
   display: flex;
   flex-direction: column;
@@ -199,6 +203,7 @@ html {
   border-width: 2px;
   border-radius: 12px;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .product_text_box .recipe1 .tools {
