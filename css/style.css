@@ -131,6 +131,7 @@ html {
 .productlist_article h3,
 .productlist_article p {
   width: 200px;
+  text-align: center;
 }
 
 .productlist_article img {
