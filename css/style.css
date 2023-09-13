@@ -111,13 +111,15 @@ html {
 }
 
 .ingredient_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
   border: solid;
   border-width: 1px;
   margin-left: 10px;
+  width: 50%;
 }
 
 .ingredient_container p {
-  padding: 3px;
   text-align: center;
 }
 
