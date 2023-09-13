@@ -139,8 +139,8 @@ html {
 
   #for_logo {
     position: absolute;
-    top: 27%;
-    left: 74%;
+    top: 38%;
+    left: 68%;
     transform: translate(-50%, -50%);
     display: grid;
     grid-template-rows: 1fr 1fr;
