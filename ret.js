@@ -20,8 +20,7 @@ function showProduct(product) {
   console.log(product);
   document.querySelector("h1").textContent = product[0].ret;
   document.querySelector("h2").textContent = product[0].skalSankes;
-  document.querySelector(".ingredient_amount_paragraph").textContent =
-    product[0].title;
+  document.querySelector(".ingredient_amount_paragraph").textContent = product[0].title;
   document.querySelector(".ingredients").textContent = product[0].ingredienser;
   document.querySelector(".tools").textContent = product[0].redskaber;
   document.querySelector(".recipe").textContent = product[0].fremgangsmaede;
