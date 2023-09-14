@@ -39,19 +39,21 @@
   </header>
 
   <main>
-    <h1>Her er en oversigt over nogle af lækre retter, <br> som man kan lave med ingredienser fra skoven.</h1>
-    <h2>God fornøjelse!</h2>
-    <section class="productlist_grid" id="productList">
-      <!-- Products will be appended here dynamically -->
+    <section class="retter_baggrund">
+      <h1>Her er en oversigt over nogle af lækre retter, <br> som man kan lave med ingredienser fra skoven.</h1>
+      <h2>God fornøjelse!</h2>
+      <section class="productlist_grid" id="productList">
+        <!-- Products will be appended here dynamically -->
+      </section>
+      <template id="retterTemplate">
+        <article class="productlist_article">
+          <img src="imgs/pancakes.avif" alt="Pandekager">
+          <h3>Pandekagetårn</h3>
+          <p>Lav lækre pandekager, og pynt med bær fundet i skoven.</p>
+          <a class="recipe_btn" href="ret.html">Se opskrift</a>
+        </article>
+      </template>
     </section>
-    <template id="retterTemplate">
-      <article class="productlist_article">
-        <img src="imgs/pancakes.avif" alt="Pandekager">
-        <h3>Pandekagetårn</h3>
-        <p>Lav lækre pandekager, og pynt med bær fundet i skoven.</p>
-        <a class="recipe_btn" href="ret.html">Se opskrift</a>
-      </article>
-    </template>
   </main>
   <footer>
     <div id="footer">
