@@ -18,6 +18,7 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #bcbf9dff;
 }
 
 /*******************INDEX**********************/
@@ -25,7 +26,6 @@ html {
 #for_main {
   width: 100%;
   height: 100vh;
-  background-color: #bcbf9dff;
 }
 
 #for_logo {
@@ -183,6 +183,16 @@ html {
 }
 
 /*******************retter**********************/
+
+.retter_baggrund {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-image: url(/imgs/baggrund.webp);
+  background-size: 100% 100%;
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+}
 
 .productlist_grid {
   display: grid;
