@@ -190,6 +190,16 @@ html {
 
 /*******************retter**********************/
 
+.retter_baggrund {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-image: url(/imgs/baggrund.webp);
+  background-size: 100% 100%;
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+}
+
 .productlist_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
